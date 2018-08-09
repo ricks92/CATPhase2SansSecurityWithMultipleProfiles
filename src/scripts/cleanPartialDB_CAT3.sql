@@ -1,0 +1,16 @@
+SET FOREIGN_KEY_CHECKS=0;
+COMMIT;
+TRUNCATE TABLE cat3.skill_profile;
+COMMIT;
+TRUNCATE TABLE cat3.profile_details;
+COMMIT;
+TRUNCATE TABLE cat3.employee_skills;
+COMMIT;
+TRUNCATE TABLE cat3.employee_details;
+COMMIT;
+TRUNCATE TABLE cat3.login_details;
+COMMIT;
+TRUNCATE TABLE cat3.feedback_details;
+COMMIT;
+SET FOREIGN_KEY_CHECKS=1;
+COMMIT;
